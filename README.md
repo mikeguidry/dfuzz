@@ -1,7 +1,7 @@
 # dfuzz
 distributed deep binary fuzzer...
 
-This system has five main different subsystems.
+This system has five main different subsystems.  Each has its own repository and is as a submodule..
 
 1. Distribution
    A NanoMSG component that communicates with MySQL.  It loads all of the operations into memory for scalability.  It's created
@@ -23,6 +23,6 @@ This system has five main different subsystems.
    This runs on a real windows machine.  It allows the fuzzing analyzer to retrieve real values back from windows.  This allows
    deep fuzzing without replicating all windows API.
 
-6. Fuzzing Instruction Dumper
+6. PIDDUMP - Fuzzing Instruction Dumper
    If you don't want to begin with the emulator.  Set some breakpoints on functions such as ReadFile, recv() from       Winsock and every time a breakpoint hits then it will dump a fuzzing context to disk for insertion into the 
    database.

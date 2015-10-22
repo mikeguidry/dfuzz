@@ -22,3 +22,7 @@ This system has five main different subsystems.
 5. API Proxy Server
    This runs on a real windows machine.  It allows the fuzzing analyzer to retrieve real values back from windows.  This allows
    deep fuzzing without replicating all windows API.
+
+6. Fuzzing Instruction Dumper
+   If you don't want to begin with the emulator.  Set some breakpoints on functions such as ReadFile, recv() from       Winsock and every time a breakpoint hits then it will dump a fuzzing context to disk for insertion into the 
+   database.

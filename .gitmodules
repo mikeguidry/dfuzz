@@ -1,3 +1,6 @@
 [submodule "piddump"]
 	path = piddump
 	url = https://github.com/mikeguidry/piddump.git
+[submodule "apiproxy"]
+	path = apiproxy
+	url = https://github.com/mikeguidry/apiproxy.git

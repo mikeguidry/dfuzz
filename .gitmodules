@@ -4,3 +4,6 @@
 [submodule "apiproxy_public"]
 	path = apiproxy_public
 	url = https://github.com/mikeguidry/apiproxy_public
+[submodule "apiproxy"]
+	path = apiproxy
+	url = https://github.com/mikeguidry/apiproxy

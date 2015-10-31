@@ -7,3 +7,6 @@
 [submodule "apiproxy"]
 	path = apiproxy
 	url = https://github.com/mikeguidry/apiproxy
+[submodule "psykoosi"]
+	path = psykoosi
+	url = https://github.com/mikeguidry/psykoosi

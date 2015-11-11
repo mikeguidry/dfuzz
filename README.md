@@ -1,3 +1,5 @@
+** NOTICE: dfuzz, and it's modules will become public again at the next actual 'release' which will be soon.  It'l be a completed version with ability to pick an application, start a server process, and automatically begin fuzzing.  It will also have a client that has the ability to use a server configuration so you can add fuzzing power.
+
 # dfuzz
 distributed deep binary fuzzer...
 
